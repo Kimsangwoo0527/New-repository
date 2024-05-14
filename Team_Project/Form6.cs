@@ -13,57 +13,19 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace Team_Project
 {
-    public partial class Form1 : Form
+    public partial class Form6 : Form
     {
-        
-
-        public Form1()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void password_TextChanged(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
+            // 입력된 학번과 비밀번호 가져오기
+            string studentID = txtID.Text;
+            string password = txtPassword.Text;
 
-        }
-
-        private void SignInButton_Click(object sender, EventArgs e)
-        {
-            string userId = id.Text;
-            string userPassword = password.Text;
-
-            if (CheckLogin(userId, userPassword))
-            {
-                MessageBox.Show("로그인에 성공했습니다.", "로그인");
-                Form2 form2 = new Form2();
-                form2.Show();
-            }
-
-            else
-            {
-                MessageBox.Show("로그인에 실패했습니다.", "로그인");
-            }
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void id_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void joinBtn_Click(object sender, EventArgs e)
-        {
-            Form6 joinForm = new Form6();
-            joinForm.Show();
-        }
-
-        private bool CheckLogin(string studentID, string password)
-        {
             // 엑셀 파일 경로 설정
             //string excelFilePath = "회원가입정보.xlsx";
             string relativePath = "회원가입정보.xlsx";
@@ -82,27 +44,25 @@ namespace Team_Project
                 // 마지막 행 번호 찾기
                 int lastRow = worksheet.Cells[worksheet.Rows.Count, 1].End[Excel.XlDirection.xlUp].Row;
 
-                // 회원가입 정보 확인
-                for (int row = 2; row <= lastRow; row++)
+                // 첫 번째 줄에 ID와 Password 저장
+                if (lastRow == 1)
                 {
-                    object cellValueID = worksheet.Cells[row, 1].Value;
-                    object cellValuePassword = worksheet.Cells[row, 2].Value;
-
-                    string savedID = cellValueID != null ? cellValueID.ToString() : "";
-                    string savedPassword = cellValuePassword != null ? cellValuePassword.ToString() : "";
-
-                    if (studentID == savedID && password == savedPassword)
-                    {
-                        return true; // 로그인 성공
-                    }
+                    worksheet.Cells[1, 1] = "ID";
+                    worksheet.Cells[1, 2] = "Password";
+                    lastRow++; // 첫 번째 줄에 문구를 저장했으므로 다음 줄부터 데이터 저장
                 }
 
-                return false; // 일치하는 정보가 없는 경우
+                // 데이터 추가
+                worksheet.Cells[lastRow+1, 1] = studentID;
+                worksheet.Cells[lastRow+1, 2] = password;
+
+                workbook.Save(); // 기존 파일에 추가된 데이터 저장
+
+                MessageBox.Show("회원가입 정보가 저장되었습니다.");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("오류 발생: " + ex.ToString());
-                return false;
             }
             finally
             {
@@ -120,6 +80,11 @@ namespace Team_Project
                     Marshal.ReleaseComObject(excelApp);
                 }
             }
+        }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

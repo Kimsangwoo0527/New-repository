@@ -32,13 +32,14 @@
             this.id = new System.Windows.Forms.TextBox();
             this.password = new System.Windows.Forms.TextBox();
             this.SignInButton = new System.Windows.Forms.Button();
+            this.joinBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 20F);
-            this.label1.Location = new System.Drawing.Point(268, 72);
+            this.label1.Location = new System.Drawing.Point(263, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 34);
             this.label1.TabIndex = 0;
@@ -51,6 +52,7 @@
             this.id.Size = new System.Drawing.Size(194, 25);
             this.id.TabIndex = 1;
             this.id.Text = "학번";
+            this.id.TextChanged += new System.EventHandler(this.id_TextChanged);
             // 
             // password
             // 
@@ -71,11 +73,22 @@
             this.SignInButton.UseVisualStyleBackColor = true;
             this.SignInButton.Click += new System.EventHandler(this.SignInButton_Click);
             // 
+            // joinBtn
+            // 
+            this.joinBtn.Location = new System.Drawing.Point(492, 349);
+            this.joinBtn.Name = "joinBtn";
+            this.joinBtn.Size = new System.Drawing.Size(193, 23);
+            this.joinBtn.TabIndex = 4;
+            this.joinBtn.Text = "회원가입";
+            this.joinBtn.UseVisualStyleBackColor = true;
+            this.joinBtn.Click += new System.EventHandler(this.joinBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.joinBtn);
             this.Controls.Add(this.SignInButton);
             this.Controls.Add(this.password);
             this.Controls.Add(this.id);
@@ -94,6 +107,7 @@
         private System.Windows.Forms.TextBox id;
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Button SignInButton;
+        private System.Windows.Forms.Button joinBtn;
     }
 }
 

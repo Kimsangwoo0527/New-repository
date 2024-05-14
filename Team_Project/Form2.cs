@@ -42,12 +42,7 @@ namespace Team_Project
      
         private void manBtn_CheckedChanged(object sender, EventArgs e)
         {
-            float in_height = float.Parse(height.Text)/100;
-            float in_weight = float.Parse(weight.Text);
-            float bmi = in_weight / (in_height * in_height);
-            var ThirdForm = new Form3();
-            ThirdForm.VariableFromSecondForm = SetBMI(bmi);
-            ThirdForm.Show();
+            
         }
 
         private void womanBtn_CheckedChanged(object sender, EventArgs e)
@@ -63,6 +58,51 @@ namespace Team_Project
         private void weight_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_next_Click(object sender, EventArgs e)
+        {
+            if(manBtn.Checked){
+                float in_height = float.Parse(height.Text) / 100;
+                float in_weight = float.Parse(weight.Text);
+                float bmi = in_weight / (in_height * in_height);
+                var ThirdForm = new Form3();
+                //ThirdForm.VariableFromSecondForm = SetBMI(bmi);
+                ThirdForm.VariableFromSecondForm_size = Classify_size(float.Parse(height.Text));
+                ThirdForm.Show();
+            }
+
+            if (womanBtn.Checked)
+            {
+                var FourthForm = new Form4();
+                FourthForm.Show();
+            }
+            
+        }
+
+        private string Classify_size(float h)
+        {
+            string size;
+            if (h > 180)
+            {
+                size = "XL";
+                return size;
+            }
+            else if(h>=170 && h < 180)
+            {
+                size = "L";
+                return size;
+            }
+            else if(h >= 160 && h < 170)
+            {
+                size = "M";
+                return size;
+            }
+            else
+            {
+                size = "S";
+                return size;
+            }
         }
     }
 }

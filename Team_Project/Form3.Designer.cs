@@ -34,14 +34,17 @@
             this.pictureBoxbody = new System.Windows.Forms.PictureBox();
             this.pictureBoxface = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ovalBtn = new System.Windows.Forms.RadioButton();
-            this.squareBtn = new System.Windows.Forms.RadioButton();
-            this.roundBtn = new System.Windows.Forms.RadioButton();
             this.triangleBtn = new System.Windows.Forms.RadioButton();
+            this.roundBtn = new System.Windows.Forms.RadioButton();
+            this.squareBtn = new System.Windows.Forms.RadioButton();
+            this.ovalBtn = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.waveBtn = new System.Windows.Forms.RadioButton();
             this.naturalBtn = new System.Windows.Forms.RadioButton();
             this.straightBtn = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbody)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxface)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -101,27 +104,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "옵션";
             // 
-            // ovalBtn
+            // triangleBtn
             // 
-            this.ovalBtn.AutoSize = true;
-            this.ovalBtn.Location = new System.Drawing.Point(18, 40);
-            this.ovalBtn.Name = "ovalBtn";
-            this.ovalBtn.Size = new System.Drawing.Size(108, 19);
-            this.ovalBtn.TabIndex = 0;
-            this.ovalBtn.TabStop = true;
-            this.ovalBtn.Text = "계란형 얼굴";
-            this.ovalBtn.UseVisualStyleBackColor = true;
-            // 
-            // squareBtn
-            // 
-            this.squareBtn.AutoSize = true;
-            this.squareBtn.Location = new System.Drawing.Point(18, 94);
-            this.squareBtn.Name = "squareBtn";
-            this.squareBtn.Size = new System.Drawing.Size(93, 19);
-            this.squareBtn.TabIndex = 1;
-            this.squareBtn.TabStop = true;
-            this.squareBtn.Text = "각진 얼굴";
-            this.squareBtn.UseVisualStyleBackColor = true;
+            this.triangleBtn.AutoSize = true;
+            this.triangleBtn.Location = new System.Drawing.Point(135, 94);
+            this.triangleBtn.Name = "triangleBtn";
+            this.triangleBtn.Size = new System.Drawing.Size(123, 19);
+            this.triangleBtn.TabIndex = 3;
+            this.triangleBtn.TabStop = true;
+            this.triangleBtn.Text = "역삼각형 얼굴";
+            this.triangleBtn.UseVisualStyleBackColor = true;
             // 
             // roundBtn
             // 
@@ -134,16 +126,27 @@
             this.roundBtn.Text = "둥근 얼굴";
             this.roundBtn.UseVisualStyleBackColor = true;
             // 
-            // triangleBtn
+            // squareBtn
             // 
-            this.triangleBtn.AutoSize = true;
-            this.triangleBtn.Location = new System.Drawing.Point(135, 94);
-            this.triangleBtn.Name = "triangleBtn";
-            this.triangleBtn.Size = new System.Drawing.Size(123, 19);
-            this.triangleBtn.TabIndex = 3;
-            this.triangleBtn.TabStop = true;
-            this.triangleBtn.Text = "역삼각형 얼굴";
-            this.triangleBtn.UseVisualStyleBackColor = true;
+            this.squareBtn.AutoSize = true;
+            this.squareBtn.Location = new System.Drawing.Point(18, 94);
+            this.squareBtn.Name = "squareBtn";
+            this.squareBtn.Size = new System.Drawing.Size(93, 19);
+            this.squareBtn.TabIndex = 1;
+            this.squareBtn.TabStop = true;
+            this.squareBtn.Text = "각진 얼굴";
+            this.squareBtn.UseVisualStyleBackColor = true;
+            // 
+            // ovalBtn
+            // 
+            this.ovalBtn.AutoSize = true;
+            this.ovalBtn.Location = new System.Drawing.Point(18, 40);
+            this.ovalBtn.Name = "ovalBtn";
+            this.ovalBtn.Size = new System.Drawing.Size(108, 19);
+            this.ovalBtn.TabIndex = 0;
+            this.ovalBtn.TabStop = true;
+            this.ovalBtn.Text = "계란형 얼굴";
+            this.ovalBtn.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -190,11 +193,42 @@
             this.straightBtn.Text = "스트레이트";
             this.straightBtn.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(521, 198);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(586, 197);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 15);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "label3";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(539, 419);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(804, 477);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBoxface);
@@ -230,5 +264,8 @@
         private System.Windows.Forms.RadioButton waveBtn;
         private System.Windows.Forms.RadioButton naturalBtn;
         private System.Windows.Forms.RadioButton straightBtn;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
     }
 }

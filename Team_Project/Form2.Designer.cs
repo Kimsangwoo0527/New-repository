@@ -30,10 +30,11 @@
         {
             this.clsBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.manBtn = new System.Windows.Forms.RadioButton();
             this.womanBtn = new System.Windows.Forms.RadioButton();
+            this.manBtn = new System.Windows.Forms.RadioButton();
             this.height = new System.Windows.Forms.TextBox();
             this.weight = new System.Windows.Forms.TextBox();
+            this.btn_next = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,18 +59,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gender";
             // 
-            // manBtn
-            // 
-            this.manBtn.AutoSize = true;
-            this.manBtn.Location = new System.Drawing.Point(28, 36);
-            this.manBtn.Name = "manBtn";
-            this.manBtn.Size = new System.Drawing.Size(56, 19);
-            this.manBtn.TabIndex = 0;
-            this.manBtn.TabStop = true;
-            this.manBtn.Text = "Man";
-            this.manBtn.UseVisualStyleBackColor = true;
-            this.manBtn.CheckedChanged += new System.EventHandler(this.manBtn_CheckedChanged);
-            // 
             // womanBtn
             // 
             this.womanBtn.AutoSize = true;
@@ -81,6 +70,18 @@
             this.womanBtn.Text = "Woman";
             this.womanBtn.UseVisualStyleBackColor = true;
             this.womanBtn.CheckedChanged += new System.EventHandler(this.womanBtn_CheckedChanged);
+            // 
+            // manBtn
+            // 
+            this.manBtn.AutoSize = true;
+            this.manBtn.Location = new System.Drawing.Point(28, 36);
+            this.manBtn.Name = "manBtn";
+            this.manBtn.Size = new System.Drawing.Size(56, 19);
+            this.manBtn.TabIndex = 0;
+            this.manBtn.TabStop = true;
+            this.manBtn.Text = "Man";
+            this.manBtn.UseVisualStyleBackColor = true;
+            this.manBtn.CheckedChanged += new System.EventHandler(this.manBtn_CheckedChanged);
             // 
             // height
             // 
@@ -100,11 +101,22 @@
             this.weight.Text = "몸무게";
             this.weight.TextChanged += new System.EventHandler(this.weight_TextChanged);
             // 
+            // btn_next
+            // 
+            this.btn_next.Location = new System.Drawing.Point(275, 369);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(234, 23);
+            this.btn_next.TabIndex = 4;
+            this.btn_next.Text = "다음 장으로";
+            this.btn_next.UseVisualStyleBackColor = true;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_next);
             this.Controls.Add(this.weight);
             this.Controls.Add(this.height);
             this.Controls.Add(this.groupBox1);
@@ -126,5 +138,6 @@
         private System.Windows.Forms.RadioButton manBtn;
         private System.Windows.Forms.TextBox height;
         private System.Windows.Forms.TextBox weight;
+        private System.Windows.Forms.Button btn_next;
     }
 }

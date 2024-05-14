@@ -1,6 +1,6 @@
 ﻿namespace Team_Project
 {
-    partial class Form4
+    partial class Form5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnOpen = new System.Windows.Forms.Button();
+            this.picProfile = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picProfile)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnOpen
+            // picProfile
             // 
-            this.btnOpen.Location = new System.Drawing.Point(565, 292);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
-            this.btnOpen.TabIndex = 0;
-            this.btnOpen.Text = "button1";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+            this.picProfile.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picProfile.Location = new System.Drawing.Point(0, 0);
+            this.picProfile.Name = "picProfile";
+            this.picProfile.Size = new System.Drawing.Size(800, 450);
+            this.picProfile.TabIndex = 0;
+            this.picProfile.TabStop = false;
+            this.picProfile.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form4
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnOpen);
-            this.Name = "Form4";
-            this.Text = "Form4";
-            this.Load += new System.EventHandler(this.Form4_Load);
+            this.Controls.Add(this.picProfile);
+            this.Name = "Form5";
+            this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picProfile)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.PictureBox picProfile;
     }
 }
