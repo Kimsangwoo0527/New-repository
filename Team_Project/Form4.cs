@@ -17,6 +17,7 @@ namespace Team_Project
 {
     public partial class Form4 : Form
     {
+        public string VariableFromSecondForm_size { get; set; }
 
         public Form4()
         {
@@ -30,50 +31,64 @@ namespace Team_Project
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            //경로 설정
-            string filePath = @"C:\Users\고재성\Desktop\clothes.xlsx";
+            //상대 경로 설정
+            string relativePath = "clothes.xlsx";
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
 
             // Excel Application 객체 생성
             Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
             Workbook excelWorkbook = excelApp.Workbooks.Open(filePath);
             Worksheet excelWorksheet = excelWorkbook.Sheets[1]; // 첫 번째 시트 선택
 
-            //// 엑셀 시트의 행과 열 반복
-            //for (int row = 1; row <= excelWorksheet.UsedRange.Rows.Count; row++)
-            //{
-            //    for (int col = 1; col <= excelWorksheet.UsedRange.Columns.Count; col++)
-            //    {
-            //        Range cell = excelWorksheet.Cells[row, col];
-            //        string cellValue = (cell.Value2 != null) ? cell.Value2.ToString() : "";
-
-            //        // URL 패턴인지 확인 (여기서는 간단히 "http://" 또는 "https://"로 시작하는 것으로 가정)
-            //        if (cellValue.StartsWith("http://") || cellValue.StartsWith("https://"))
-            //        {
-            //            // URL 주소가 있는 경우 처리 (여기서는 간단히 콘솔에 출력)
-            //            Console.WriteLine("URL 주소: " + cellValue);
-            //            Form5 dForm = new Form5(cellValue);
-            //            dForm.Show();
-
-            //        }
-            //    }
-            //}
-
             for (int row = 1; row <= excelWorksheet.UsedRange.Rows.Count; row++)
             {
-                string cellValue = excelWorksheet.Cells[row, 5].Value;
-                if (cellValue.StartsWith("http://") || cellValue.StartsWith("https://"))
+                string cellValue_size = excelWorksheet.Cells[row, 1].Value;
+                string cellValue_gender = excelWorksheet.Cells[row, 2].Value;
+                string cellValue_body = excelWorksheet.Cells[row, 3].Value;
+                string cellValue_face = excelWorksheet.Cells[row, 4].Value;
+                string cellValue_url = excelWorksheet.Cells[row, 5].Value;
+                if ((cellValue_size == VariableFromSecondForm_size) && (cellValue_gender == "Woman") && (cellValue_body == Classify_body()) && (cellValue_face == Classify_face()))
                 {
-                    // URL 주소가 있는 경우 처리 (여기서는 간단히 콘솔에 출력)
-                    Console.WriteLine("URL 주소: " + cellValue);
-                    Form5 dForm = new Form5(cellValue);
-                    dForm.Show();
+                    // URL 주소가 있는 경우 처리 
+                    Form5 diForm = new Form5(cellValue_url);
+                    diForm.Show();
 
                 }
+
+
             }
+
             // Excel 객체 해제
             excelWorkbook.Close();
             excelApp.Quit();
             System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+        }
+
+        private String Classify_body()
+        {
+            if (straightBtn_W.Checked)
+                return "straight";
+            else if (waveBtn_W.Checked)
+                return "wave";
+            else
+                return "natural";
+        }
+
+        private String Classify_face()
+        {
+            if (ovalBtn_W.Checked)
+                return "oval";
+            else if (roundBtn_W.Checked)
+                return "round";
+            else if (squareBtn_W.Checked)
+                return "square";
+            else
+                return "triangle";
+        }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
  }

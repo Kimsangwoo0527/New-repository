@@ -40,11 +40,11 @@
             // 
             // clsBtn
             // 
-            this.clsBtn.Location = new System.Drawing.Point(625, 344);
+            this.clsBtn.Location = new System.Drawing.Point(125, 366);
             this.clsBtn.Name = "clsBtn";
-            this.clsBtn.Size = new System.Drawing.Size(75, 23);
+            this.clsBtn.Size = new System.Drawing.Size(234, 23);
             this.clsBtn.TabIndex = 0;
-            this.clsBtn.Text = "button1";
+            this.clsBtn.Text = "이전으로";
             this.clsBtn.UseVisualStyleBackColor = true;
             this.clsBtn.Click += new System.EventHandler(this.clsBtn_Click);
             // 
@@ -85,6 +85,7 @@
             // 
             // height
             // 
+            this.height.ForeColor = System.Drawing.Color.Black;
             this.height.Location = new System.Drawing.Point(275, 95);
             this.height.Name = "height";
             this.height.Size = new System.Drawing.Size(234, 25);
@@ -94,6 +95,7 @@
             // 
             // weight
             // 
+            this.weight.ForeColor = System.Drawing.Color.Black;
             this.weight.Location = new System.Drawing.Point(275, 186);
             this.weight.Name = "weight";
             this.weight.Size = new System.Drawing.Size(234, 25);
@@ -103,7 +105,7 @@
             // 
             // btn_next
             // 
-            this.btn_next.Location = new System.Drawing.Point(275, 369);
+            this.btn_next.Location = new System.Drawing.Point(410, 366);
             this.btn_next.Name = "btn_next";
             this.btn_next.Size = new System.Drawing.Size(234, 23);
             this.btn_next.TabIndex = 4;
@@ -122,7 +124,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.clsBtn);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "코디프로그램";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

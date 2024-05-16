@@ -62,46 +62,82 @@ namespace Team_Project
 
         private void btn_next_Click(object sender, EventArgs e)
         {
-            if(manBtn.Checked){
-                float in_height = float.Parse(height.Text) / 100;
-                float in_weight = float.Parse(weight.Text);
-                float bmi = in_weight / (in_height * in_height);
-                var ThirdForm = new Form3();
-                //ThirdForm.VariableFromSecondForm = SetBMI(bmi);
-                ThirdForm.VariableFromSecondForm_size = Classify_size(float.Parse(height.Text));
-                ThirdForm.Show();
-            }
-
-            if (womanBtn.Checked)
+            try
             {
-                var FourthForm = new Form4();
-                FourthForm.Show();
+                float in_height = float.Parse(height.Text);
+                float in_weight = float.Parse(weight.Text);
+                if (manBtn.Checked)
+                {
+                    
+                    var ThirdForm = new Form3();
+                    ThirdForm.VariableFromSecondForm_size = Classify_size(in_height, in_weight, true);
+                    ThirdForm.Show();
+                }
+
+                if (womanBtn.Checked)
+                {
+                    var FourthForm = new Form4();
+                    FourthForm.VariableFromSecondForm_size = Classify_size(in_height, in_weight, false);
+                    FourthForm.Show();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("키와 몸무게를 제대로 입력해주세요.", "Error");
             }
             
         }
 
-        private string Classify_size(float h)
+        private string Classify_size(float h, float w, bool M)
         {
+            float new_h = h / 100;
+            float bmi = w / (new_h * new_h);
             string size;
-            if (h > 180)
+            if (M)
             {
-                size = "XL";
-                return size;
-            }
-            else if(h>=170 && h < 180)
-            {
-                size = "L";
-                return size;
-            }
-            else if(h >= 160 && h < 170)
-            {
-                size = "M";
-                return size;
+                if (bmi >= 30)
+                {
+                    size = "XL";
+                    return size;
+                }
+                else if (bmi >= 24.9 && bmi < 30)
+                {
+                    size = "L";
+                    return size;
+                }
+                else if (bmi >= 20 && bmi < 24.8)
+                {
+                    size = "M";
+                    return size;
+                }
+                else
+                {
+                    size = "S";
+                    return size;
+                }
             }
             else
             {
-                size = "S";
-                return size;
+                if (bmi >= 30)
+                {
+                    size = "XL";
+                    return size;
+                }
+                else if (bmi >= 23.9 && bmi < 30)
+                {
+                    size = "L";
+                    return size;
+                }
+                else if (bmi >= 18.5 && bmi < 23.9)
+                {
+                    size = "M";
+                    return size;
+                }
+                else
+                {
+                    size = "S";
+                    return size;
+                }
             }
         }
     }

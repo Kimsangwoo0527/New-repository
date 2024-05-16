@@ -28,3 +28,20 @@ C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\
 C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.ResolveComReference.cache
 C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form5.resources
 C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.pdb

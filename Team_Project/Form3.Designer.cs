@@ -29,8 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.closeBtn = new System.Windows.Forms.Button();
             this.pictureBoxbody = new System.Windows.Forms.PictureBox();
             this.pictureBoxface = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -42,39 +41,27 @@
             this.waveBtn = new System.Windows.Forms.RadioButton();
             this.naturalBtn = new System.Windows.Forms.RadioButton();
             this.straightBtn = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbody)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxface)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // closeBtn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 186);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(704, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.closeBtn.Location = new System.Drawing.Point(656, 404);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(127, 23);
+            this.closeBtn.TabIndex = 1;
+            this.closeBtn.Text = "이전으로";
+            this.closeBtn.UseVisualStyleBackColor = true;
+            this.closeBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBoxbody
             // 
             this.pictureBoxbody.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxbody.Image")));
-            this.pictureBoxbody.Location = new System.Drawing.Point(29, 211);
+            this.pictureBoxbody.Location = new System.Drawing.Point(29, 195);
             this.pictureBoxbody.Name = "pictureBoxbody";
             this.pictureBoxbody.Size = new System.Drawing.Size(463, 232);
             this.pictureBoxbody.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,6 +77,7 @@
             this.pictureBoxface.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxface.TabIndex = 3;
             this.pictureBoxface.TabStop = false;
+            this.pictureBoxface.Click += new System.EventHandler(this.pictureBoxface_Click);
             // 
             // groupBox1
             // 
@@ -102,7 +90,7 @@
             this.groupBox1.Size = new System.Drawing.Size(261, 142);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "옵션";
+            this.groupBox1.Text = "얼굴형";
             // 
             // triangleBtn
             // 
@@ -153,12 +141,12 @@
             this.groupBox2.Controls.Add(this.waveBtn);
             this.groupBox2.Controls.Add(this.naturalBtn);
             this.groupBox2.Controls.Add(this.straightBtn);
-            this.groupBox2.Location = new System.Drawing.Point(520, 265);
+            this.groupBox2.Location = new System.Drawing.Point(521, 226);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(262, 142);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "옵션";
+            this.groupBox2.Text = "체형";
             // 
             // waveBtn
             // 
@@ -193,50 +181,29 @@
             this.straightBtn.Text = "스트레이트";
             this.straightBtn.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // btnOpen
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(521, 198);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 15);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(586, 197);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 15);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(539, 419);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnOpen.Location = new System.Drawing.Point(521, 404);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(121, 23);
+            this.btnOpen.TabIndex = 8;
+            this.btnOpen.Text = "결과 출력";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(804, 477);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBoxface);
             this.Controls.Add(this.pictureBoxbody);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.closeBtn);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "코디프로그램";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbody)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxface)).EndInit();
@@ -245,14 +212,11 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button closeBtn;
         private System.Windows.Forms.PictureBox pictureBoxbody;
         private System.Windows.Forms.PictureBox pictureBoxface;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -264,8 +228,6 @@
         private System.Windows.Forms.RadioButton waveBtn;
         private System.Windows.Forms.RadioButton naturalBtn;
         private System.Windows.Forms.RadioButton straightBtn;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnOpen;
     }
 }

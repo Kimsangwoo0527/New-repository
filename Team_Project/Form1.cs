@@ -31,7 +31,6 @@ namespace Team_Project
         {
             string userId = id.Text;
             string userPassword = password.Text;
-
             if (CheckLogin(userId, userPassword))
             {
                 MessageBox.Show("로그인에 성공했습니다.", "로그인");
@@ -43,7 +42,6 @@ namespace Team_Project
             {
                 MessageBox.Show("로그인에 실패했습니다.", "로그인");
             }
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -65,7 +63,6 @@ namespace Team_Project
         private bool CheckLogin(string studentID, string password)
         {
             // 엑셀 파일 경로 설정
-            //string excelFilePath = "회원가입정보.xlsx";
             string relativePath = "회원가입정보.xlsx";
             string excelFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
 

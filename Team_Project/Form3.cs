@@ -33,7 +33,7 @@ namespace Team_Project
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            //label1.Text = VariableFromSecondForm;
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,7 +41,6 @@ namespace Team_Project
             //상대 경로 설정
             string relativePath = "clothes.xlsx";
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
-            //string filePath = @"C:\Users\고재성\Desktop\clothes.xlsx";
 
             // Excel Application 객체 생성
             Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
@@ -50,8 +49,7 @@ namespace Team_Project
 
             for (int row = 1; row <= excelWorksheet.UsedRange.Rows.Count; row++)
             {
-                //Range cell = excelWorksheet.Cells[row, 5];
-                //string cellValue = (cell.Value2 != null) ? cell.Value2.ToString() : "";
+                
                 string cellValue_size = excelWorksheet.Cells[row, 1].Value;
                 string cellValue_gender = excelWorksheet.Cells[row, 2].Value;
                 string cellValue_body = excelWorksheet.Cells[row, 3].Value;
@@ -59,8 +57,7 @@ namespace Team_Project
                 string cellValue_url = excelWorksheet.Cells[row, 5].Value;
                 if ((cellValue_size== VariableFromSecondForm_size) && (cellValue_gender == "Man")&& (cellValue_body == Classify_body())&& (cellValue_face == Classify_face()))
                 {
-                    // URL 주소가 있는 경우 처리 (여기서는 간단히 콘솔에 출력)
-                    Console.WriteLine("URL 주소: " + cellValue_url);
+                    // URL 주소가 있는 경우 처리                    
                     Form5 dForm = new Form5(cellValue_url);
                     dForm.Show();
 
@@ -97,5 +94,9 @@ namespace Team_Project
                 return "triangle";
         }
 
+        private void pictureBoxface_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

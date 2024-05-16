@@ -36,17 +36,17 @@
             // 
             // closeBtn
             // 
-            this.closeBtn.Location = new System.Drawing.Point(454, 313);
+            this.closeBtn.Location = new System.Drawing.Point(154, 308);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(130, 37);
+            this.closeBtn.Size = new System.Drawing.Size(179, 37);
             this.closeBtn.TabIndex = 0;
-            this.closeBtn.Text = "종료";
+            this.closeBtn.Text = "이전으로";
             this.closeBtn.UseVisualStyleBackColor = true;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(163, 313);
+            this.btnSave.Location = new System.Drawing.Point(443, 308);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(163, 37);
             this.btnSave.TabIndex = 1;
@@ -60,6 +60,7 @@
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(244, 25);
             this.txtID.TabIndex = 2;
+            this.txtID.Text = "학번";
             // 
             // txtPassword
             // 
@@ -67,6 +68,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(244, 25);
             this.txtPassword.TabIndex = 3;
+            this.txtPassword.Text = "비밀번호";
             // 
             // Form6
             // 
@@ -78,7 +80,8 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.closeBtn);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "코디프로그램";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

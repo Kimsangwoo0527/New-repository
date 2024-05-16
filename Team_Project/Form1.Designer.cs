@@ -39,7 +39,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 20F);
-            this.label1.Location = new System.Drawing.Point(263, 81);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(295, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 34);
             this.label1.TabIndex = 0;
@@ -47,7 +48,8 @@
             // 
             // id
             // 
-            this.id.Location = new System.Drawing.Point(246, 196);
+            this.id.ForeColor = System.Drawing.Color.Black;
+            this.id.Location = new System.Drawing.Point(269, 189);
             this.id.Name = "id";
             this.id.Size = new System.Drawing.Size(194, 25);
             this.id.TabIndex = 1;
@@ -56,7 +58,8 @@
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(246, 284);
+            this.password.ForeColor = System.Drawing.Color.Black;
+            this.password.Location = new System.Drawing.Point(269, 263);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(194, 25);
             this.password.TabIndex = 2;
@@ -65,7 +68,7 @@
             // 
             // SignInButton
             // 
-            this.SignInButton.Location = new System.Drawing.Point(246, 350);
+            this.SignInButton.Location = new System.Drawing.Point(390, 343);
             this.SignInButton.Name = "SignInButton";
             this.SignInButton.Size = new System.Drawing.Size(194, 23);
             this.SignInButton.TabIndex = 3;
@@ -75,7 +78,7 @@
             // 
             // joinBtn
             // 
-            this.joinBtn.Location = new System.Drawing.Point(492, 349);
+            this.joinBtn.Location = new System.Drawing.Point(136, 343);
             this.joinBtn.Name = "joinBtn";
             this.joinBtn.Size = new System.Drawing.Size(193, 23);
             this.joinBtn.TabIndex = 4;
@@ -94,7 +97,7 @@
             this.Controls.Add(this.id);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "코디프로그램";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

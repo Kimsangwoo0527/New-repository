@@ -27,7 +27,6 @@ namespace Team_Project
             string password = txtPassword.Text;
 
             // 엑셀 파일 경로 설정
-            //string excelFilePath = "회원가입정보.xlsx";
             string relativePath = "회원가입정보.xlsx";
             string excelFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
 
@@ -85,6 +84,11 @@ namespace Team_Project
         private void closeBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
