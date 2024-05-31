@@ -33,14 +33,14 @@ namespace Team_Project
             string userPassword = password.Text;
             if (CheckLogin(userId, userPassword))
             {
-                MessageBox.Show("로그인에 성공했습니다.", "로그인");
+                MessageBox.Show("로그인에 성공했습니다.", "Login");
                 Form2 form2 = new Form2();
                 form2.Show();
             }
 
             else
             {
-                MessageBox.Show("로그인에 실패했습니다.", "로그인");
+                MessageBox.Show("로그인에 실패했습니다.", "Login");
             }
         }
 
@@ -118,5 +118,13 @@ namespace Team_Project
                 }
             }
         }
+<<<<<<< HEAD
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+=======
+>>>>>>> ce2ea5bbf4292b2c09ba31ea5ccf380d8600ee40
     }
 }

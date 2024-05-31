@@ -128,9 +128,16 @@
             // ovalBtn
             // 
             this.ovalBtn.AutoSize = true;
+<<<<<<< HEAD
+            this.ovalBtn.Image = ((System.Drawing.Image)(resources.GetObject("ovalBtn.Image")));
+            this.ovalBtn.Location = new System.Drawing.Point(18, 40);
+            this.ovalBtn.Name = "ovalBtn";
+            this.ovalBtn.Size = new System.Drawing.Size(383, 37);
+=======
             this.ovalBtn.Location = new System.Drawing.Point(18, 40);
             this.ovalBtn.Name = "ovalBtn";
             this.ovalBtn.Size = new System.Drawing.Size(108, 19);
+>>>>>>> ce2ea5bbf4292b2c09ba31ea5ccf380d8600ee40
             this.ovalBtn.TabIndex = 0;
             this.ovalBtn.TabStop = true;
             this.ovalBtn.Text = "계란형 얼굴";
