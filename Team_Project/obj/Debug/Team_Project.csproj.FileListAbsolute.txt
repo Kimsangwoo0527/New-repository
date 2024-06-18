@@ -79,6 +79,25 @@ C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Pro
 C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
 C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.exe
 C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+<<<<<<< HEAD
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+=======
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\bin\Debug\Team_Project.exe.config
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\bin\Debug\Team_Project.exe
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\bin\Debug\Team_Project.pdb
@@ -96,3 +115,4 @@ C:\Users\고재성\Desktop\파일\New-repository\Team_Project\obj\Debug\Team_Pro
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\obj\Debug\Team_Project.exe
 C:\Users\고재성\Desktop\파일\New-repository\Team_Project\obj\Debug\Team_Project.pdb
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd

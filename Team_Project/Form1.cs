@@ -49,14 +49,36 @@ namespace Team_Project
             string relativePath = "clothes.xlsx";
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
 
+<<<<<<< HEAD
+            string relativePath1 = "accessory.xlsx";
+            string filePath1 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath1);
+
+            string relativePath2 = "하의 2.xlsx";
+            string filePath2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath2);
+
+=======
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
             // Excel Application 객체 생성
             Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
             Workbook excelWorkbook = excelApp.Workbooks.Open(filePath);
             Worksheet excelWorksheet = excelWorkbook.Sheets[1]; // 첫 번째 시트 선택
 
+<<<<<<< HEAD
+            Microsoft.Office.Interop.Excel.Application excelApp1 = new Microsoft.Office.Interop.Excel.Application();
+            Workbook excelWorkbook1 = excelApp1.Workbooks.Open(filePath1);
+            Worksheet excelWorksheet1 = excelWorkbook1.Sheets[1];
+
+            Microsoft.Office.Interop.Excel.Application excelApp2 = new Microsoft.Office.Interop.Excel.Application();
+            Workbook excelWorkbook2 = excelApp2.Workbooks.Open(filePath2);
+            Worksheet excelWorksheet2 = excelWorkbook2.Sheets[1];
+
+            for (int row = 2; row <= excelWorksheet.UsedRange.Rows.Count; row++)
+            {
+=======
             for (int row = 2; row <= excelWorksheet.UsedRange.Rows.Count; row++)
             {
 
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
                 string cellValue_size = excelWorksheet.Cells[row, 1].Value;
                 string cellValue_gender = excelWorksheet.Cells[row, 2].Value;
                 string cellValue_body = excelWorksheet.Cells[row, 3].Value;
@@ -65,10 +87,41 @@ namespace Team_Project
                 GlobalData.dataset.Tables["Clothes"].Rows.Add(new object[] { row-1, cellValue_size, cellValue_gender, cellValue_body, cellValue_face, cellValue_url });
             }
 
+<<<<<<< HEAD
+            for (int row = 2; row <= excelWorksheet1.UsedRange.Rows.Count; row++)
+            {
+                string cellValue_face1 = excelWorksheet1.Cells[row, 1].Value;
+                string cellValue_gender1 = excelWorksheet1.Cells[row, 2].Value;
+                string cellValue_url1 = excelWorksheet1.Cells[row, 3].Value;
+                GlobalData.dataset.Tables["Accessory"].Rows.Add(new object[] { cellValue_face1, cellValue_gender1, cellValue_url1 });
+            }
+
+            for (int row = 2; row <= excelWorksheet2.UsedRange.Rows.Count; row++)
+            {
+                string cellValue_size2 = excelWorksheet1.Cells[row, 1].Value;
+                string cellValue_gender2 = excelWorksheet1.Cells[row, 2].Value;
+                string cellValue_body2 = excelWorksheet1.Cells[row, 3].Value;
+                string cellValue_url2 = excelWorksheet1.Cells[row, 4].Value;
+                GlobalData.dataset.Tables["Bottom"].Rows.Add(new object[] { cellValue_size2, cellValue_gender2, cellValue_body2 ,cellValue_url2 });
+            }
+
+=======
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
             // Excel 객체 해제
             excelWorkbook.Close();
             excelApp.Quit();
             System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+<<<<<<< HEAD
+
+            excelWorkbook1.Close();
+            excelApp1.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp1);
+
+            excelWorkbook2.Close();
+            excelApp2.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp2);
+=======
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
             //dataset 뭐 있는지 출력
             //foreach (DataRow row in GlobalData.dataset.Clothes.Rows)
             //{

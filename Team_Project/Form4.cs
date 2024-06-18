@@ -85,6 +85,53 @@ namespace Team_Project
 
                 }
             }
+<<<<<<< HEAD
+
+            for (int i = 0; i < GlobalData.dataset.Accessory.Rows.Count; i++)
+            {
+                face_value = GlobalData.dataset.Tables["Accessory"].Rows[i]["Face"].ToString();
+                gender_value = GlobalData.dataset.Tables["Accessory"].Rows[i]["Gender"].ToString();
+                url_value = GlobalData.dataset.Tables["Accessory"].Rows[i]["Url"].ToString();
+                if ((gender_value == "Man") && (face_value == Classify_face()))
+                {
+                    // URL 주소가 있는 경우 처리                    
+                    Form5 dForm = new Form5(url_value);
+                    dForm.Show();
+
+                }
+            }
+
+            for (int i = 0; i < GlobalData.dataset.Accessory.Rows.Count; i++)
+            {
+                face_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Size"].ToString();
+                gender_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Gender"].ToString();
+                body_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Body"].ToString();
+                url_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Url"].ToString();
+                if ((gender_value == "Woman") && (face_value == Classify_face()))
+                {
+                    // URL 주소가 있는 경우 처리                    
+                    Form5 dForm = new Form5(url_value);
+                    dForm.Show();
+
+                }
+            }
+
+            for (int i = 0; i < GlobalData.dataset.Bottom.Rows.Count; i++)
+            {
+                face_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Size"].ToString();
+                gender_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Gender"].ToString();
+                body_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Body"].ToString();
+                url_value = GlobalData.dataset.Tables["Bottom"].Rows[i]["Url"].ToString();
+                if ((size_value == VariableFromSecondForm_size) && (gender_value == "Woman") && (body_value == Classify_body()))
+                {
+                    // URL 주소가 있는 경우 처리                    
+                    Form5 dForm = new Form5(url_value);
+                    dForm.Show();
+
+                }
+            }
+=======
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
         }
 
         private String Classify_body()

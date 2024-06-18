@@ -6074,7 +6074,11 @@
   <data name="Btn_straight_w.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUAAAAInCAYAAADpiYDVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+<<<<<<< HEAD
+        cwAAEnMBjCK5BwAA/7JJREFUeF7s/WWAHMfZ9Q+/n58v/4eZmRnugJkdO3bssB12yBRzElu2TJIsZlwt
+=======
         cgAAEnIBXmVb4wAA/7JJREFUeF7s/WWAHMfZ9Q+/n58v/4eZmRnugJkdO3bssB12yBRzElu2TJIsZlwt
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
         M+/s7OzAMjMzMzOT5PNep3pqtzWaFdhynKy65OOZnenpru6q+vW5qqq7/3+wkpWsZKW/8PTpp59uK9/0
         6aeXRZdw+dMNWAC0kpWs9Bef/IFPyzdZAPwzSP4KiroVyd96/Wm7dDPL3mjyt85bqeslf7/5snSrkr91
         36h2WvK3j9uK/xQELQB+aclvwXj1eZO/dfrTdulmlr3R5G+dt1rXSv6W/7J0q5K/dd+MdlLyt3/bSv2z
@@ -8323,7 +8327,11 @@
   <data name="Btn_natural_w.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATkAAAIjCAYAAAB4RGyRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+<<<<<<< HEAD
+        cwAAEnMBjCK5BwAA/7JJREFUeF7s/fd/HMeZ9Q37H3re+1n73nVQzrJlyUG25WzLVs6REsVMggEZg8kz
+=======
         cgAAEnIBXmVb4wAA/7JJREFUeF7s/fd/HMeZ9Q37H3re+1n73nVQzrJlyUG25WzLVs6REsVMggEZg8kz
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
         GOScc845EpnIOYMEwEwq7HPec1V3zwxAUBJtaVeC5ofz6ZmO1dVV3z5Xd1X198xlZlgoK2Ur12TVZSm3
         wFwmknWilawBBfQ/IKO8Wcr9VPHVyKwr2lClLr9lhvyPv1s6A/rmKwC5O5S38n2B1PqlO2TM19fxrutd
         x8RlJs7bXf7bf75ut5/txzXkv+0ty/zT7yeLIbWetv8vdUz/bb3b+6TSwHww/psJF0O7AetOZa4wKQnQ
@@ -10696,7 +10704,11 @@
   <data name="Btn_wave_w.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUwAAAIjCAYAAABoJCJNAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+<<<<<<< HEAD
+        cwAAEnMBjCK5BwAA/7JJREFUeF7s/eV/HOe6tYu+/8Q+e5+z97smhZMZ5phiZo6ZZJBkZrZlybJkiyWL
+=======
         cgAAEnIBXmVb4wAA/7JJREFUeF7s/eV/HOe6tYu+/8Q+e5+z97smhZMZ5phiZo6ZZJBkZrZlybJkiyWL
+>>>>>>> 40498b5f6727fecb8f46576cc5b5ffd8e71845bd
         mZmZmWyZmWRbkiVLZuZkjTPup7rULVlOsjLnjLOV/nD9Gqq64Kmqq8dd+L+ePyjC8/vFnbww8OODwm4U
         mPk9uf8yL14ivwumv3+ho3f7BfT+TYfxMtKfRvdu2rh6pnu/Mhw1LBmvATV/MgyFcTw9jasTGfZvoMt4
         1fCNdB+3cZq68urxczimcBg9w35/hp7GaUpPvzHzn+d/vbj/a4TZ84/N/AfpYWPsKiJuzD2g/15tWD10
