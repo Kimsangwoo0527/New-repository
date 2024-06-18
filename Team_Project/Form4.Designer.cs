@@ -30,27 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.btnOpen = new System.Windows.Forms.Button();
-            this.pictureBoxface_W = new System.Windows.Forms.PictureBox();
-            this.pictureBoxbody_W = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.triangleBtn_W = new System.Windows.Forms.RadioButton();
-            this.squareBtn_W = new System.Windows.Forms.RadioButton();
-            this.roundBtn_W = new System.Windows.Forms.RadioButton();
-            this.ovalBtn_W = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.naturalBtn_W = new System.Windows.Forms.RadioButton();
-            this.waveBtn_W = new System.Windows.Forms.RadioButton();
-            this.straightBtn_W = new System.Windows.Forms.RadioButton();
             this.closeBtn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxface_W)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbody_W)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.Btn_oval = new System.Windows.Forms.Button();
+            this.Btn_square = new System.Windows.Forms.Button();
+            this.Btn_straight_w = new System.Windows.Forms.Button();
+            this.Btn_natural_w = new System.Windows.Forms.Button();
+            this.Btn_wave_w = new System.Windows.Forms.Button();
+            this.Btn_triangle = new System.Windows.Forms.Button();
+            this.Btn_round = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lbl_body = new System.Windows.Forms.Label();
+            this.lbl_face = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(478, 386);
+            this.btnOpen.Location = new System.Drawing.Point(306, 686);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(129, 23);
             this.btnOpen.TabIndex = 0;
@@ -58,131 +57,9 @@
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
-            // pictureBoxface_W
-            // 
-            this.pictureBoxface_W.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxface_W.Image")));
-            this.pictureBoxface_W.Location = new System.Drawing.Point(23, 24);
-            this.pictureBoxface_W.Name = "pictureBoxface_W";
-            this.pictureBoxface_W.Size = new System.Drawing.Size(421, 175);
-            this.pictureBoxface_W.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxface_W.TabIndex = 1;
-            this.pictureBoxface_W.TabStop = false;
-            // 
-            // pictureBoxbody_W
-            // 
-            this.pictureBoxbody_W.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxbody_W.Image")));
-            this.pictureBoxbody_W.Location = new System.Drawing.Point(23, 224);
-            this.pictureBoxbody_W.Name = "pictureBoxbody_W";
-            this.pictureBoxbody_W.Size = new System.Drawing.Size(421, 185);
-            this.pictureBoxbody_W.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxbody_W.TabIndex = 2;
-            this.pictureBoxbody_W.TabStop = false;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.triangleBtn_W);
-            this.groupBox1.Controls.Add(this.squareBtn_W);
-            this.groupBox1.Controls.Add(this.roundBtn_W);
-            this.groupBox1.Controls.Add(this.ovalBtn_W);
-            this.groupBox1.Location = new System.Drawing.Point(460, 39);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(295, 146);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "얼굴형";
-            // 
-            // triangleBtn_W
-            // 
-            this.triangleBtn_W.AutoSize = true;
-            this.triangleBtn_W.Location = new System.Drawing.Point(163, 97);
-            this.triangleBtn_W.Name = "triangleBtn_W";
-            this.triangleBtn_W.Size = new System.Drawing.Size(123, 19);
-            this.triangleBtn_W.TabIndex = 3;
-            this.triangleBtn_W.TabStop = true;
-            this.triangleBtn_W.Text = "역삼각형 얼굴";
-            this.triangleBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // squareBtn_W
-            // 
-            this.squareBtn_W.AutoSize = true;
-            this.squareBtn_W.Location = new System.Drawing.Point(28, 97);
-            this.squareBtn_W.Name = "squareBtn_W";
-            this.squareBtn_W.Size = new System.Drawing.Size(93, 19);
-            this.squareBtn_W.TabIndex = 2;
-            this.squareBtn_W.TabStop = true;
-            this.squareBtn_W.Text = "각진 얼굴";
-            this.squareBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // roundBtn_W
-            // 
-            this.roundBtn_W.AutoSize = true;
-            this.roundBtn_W.Location = new System.Drawing.Point(163, 37);
-            this.roundBtn_W.Name = "roundBtn_W";
-            this.roundBtn_W.Size = new System.Drawing.Size(93, 19);
-            this.roundBtn_W.TabIndex = 1;
-            this.roundBtn_W.TabStop = true;
-            this.roundBtn_W.Text = "둥근 얼굴";
-            this.roundBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // ovalBtn_W
-            // 
-            this.ovalBtn_W.AutoSize = true;
-            this.ovalBtn_W.Location = new System.Drawing.Point(28, 37);
-            this.ovalBtn_W.Name = "ovalBtn_W";
-            this.ovalBtn_W.Size = new System.Drawing.Size(108, 19);
-            this.ovalBtn_W.TabIndex = 0;
-            this.ovalBtn_W.TabStop = true;
-            this.ovalBtn_W.Text = "계란형 얼굴";
-            this.ovalBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.naturalBtn_W);
-            this.groupBox2.Controls.Add(this.waveBtn_W);
-            this.groupBox2.Controls.Add(this.straightBtn_W);
-            this.groupBox2.Location = new System.Drawing.Point(460, 224);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(295, 135);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "체형";
-            // 
-            // naturalBtn_W
-            // 
-            this.naturalBtn_W.AutoSize = true;
-            this.naturalBtn_W.Location = new System.Drawing.Point(28, 90);
-            this.naturalBtn_W.Name = "naturalBtn_W";
-            this.naturalBtn_W.Size = new System.Drawing.Size(73, 19);
-            this.naturalBtn_W.TabIndex = 2;
-            this.naturalBtn_W.TabStop = true;
-            this.naturalBtn_W.Text = "내추럴";
-            this.naturalBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // waveBtn_W
-            // 
-            this.waveBtn_W.AutoSize = true;
-            this.waveBtn_W.Location = new System.Drawing.Point(163, 36);
-            this.waveBtn_W.Name = "waveBtn_W";
-            this.waveBtn_W.Size = new System.Drawing.Size(73, 19);
-            this.waveBtn_W.TabIndex = 1;
-            this.waveBtn_W.TabStop = true;
-            this.waveBtn_W.Text = "웨이브";
-            this.waveBtn_W.UseVisualStyleBackColor = true;
-            // 
-            // straightBtn_W
-            // 
-            this.straightBtn_W.AutoSize = true;
-            this.straightBtn_W.Location = new System.Drawing.Point(28, 36);
-            this.straightBtn_W.Name = "straightBtn_W";
-            this.straightBtn_W.Size = new System.Drawing.Size(103, 19);
-            this.straightBtn_W.TabIndex = 0;
-            this.straightBtn_W.TabStop = true;
-            this.straightBtn_W.Text = "스트레이트";
-            this.straightBtn_W.UseVisualStyleBackColor = true;
-            // 
             // closeBtn
             // 
-            this.closeBtn.Location = new System.Drawing.Point(623, 386);
+            this.closeBtn.Location = new System.Drawing.Point(654, 686);
             this.closeBtn.Name = "closeBtn";
             this.closeBtn.Size = new System.Drawing.Size(129, 23);
             this.closeBtn.TabIndex = 5;
@@ -190,26 +67,161 @@
             this.closeBtn.UseVisualStyleBackColor = true;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
+            // Btn_oval
+            // 
+            this.Btn_oval.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_oval.BackgroundImage")));
+            this.Btn_oval.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_oval.Location = new System.Drawing.Point(577, 155);
+            this.Btn_oval.Name = "Btn_oval";
+            this.Btn_oval.Size = new System.Drawing.Size(166, 209);
+            this.Btn_oval.TabIndex = 14;
+            this.Btn_oval.UseVisualStyleBackColor = true;
+            this.Btn_oval.Click += new System.EventHandler(this.Btn_oval_Click);
+            // 
+            // Btn_square
+            // 
+            this.Btn_square.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_square.BackgroundImage")));
+            this.Btn_square.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_square.Location = new System.Drawing.Point(781, 155);
+            this.Btn_square.Name = "Btn_square";
+            this.Btn_square.Size = new System.Drawing.Size(166, 209);
+            this.Btn_square.TabIndex = 15;
+            this.Btn_square.UseVisualStyleBackColor = true;
+            this.Btn_square.Click += new System.EventHandler(this.Btn_square_Click);
+            // 
+            // Btn_straight_w
+            // 
+            this.Btn_straight_w.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_straight_w.BackgroundImage")));
+            this.Btn_straight_w.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_straight_w.Location = new System.Drawing.Point(467, 412);
+            this.Btn_straight_w.Name = "Btn_straight_w";
+            this.Btn_straight_w.Size = new System.Drawing.Size(166, 209);
+            this.Btn_straight_w.TabIndex = 22;
+            this.Btn_straight_w.UseVisualStyleBackColor = true;
+            this.Btn_straight_w.Click += new System.EventHandler(this.Btn_straight_w_Click);
+            // 
+            // Btn_natural_w
+            // 
+            this.Btn_natural_w.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_natural_w.BackgroundImage")));
+            this.Btn_natural_w.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_natural_w.Location = new System.Drawing.Point(661, 403);
+            this.Btn_natural_w.Name = "Btn_natural_w";
+            this.Btn_natural_w.Size = new System.Drawing.Size(166, 209);
+            this.Btn_natural_w.TabIndex = 21;
+            this.Btn_natural_w.UseVisualStyleBackColor = true;
+            this.Btn_natural_w.Click += new System.EventHandler(this.Btn_natural_w_Click);
+            // 
+            // Btn_wave_w
+            // 
+            this.Btn_wave_w.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_wave_w.BackgroundImage")));
+            this.Btn_wave_w.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_wave_w.Location = new System.Drawing.Point(234, 412);
+            this.Btn_wave_w.Name = "Btn_wave_w";
+            this.Btn_wave_w.Size = new System.Drawing.Size(166, 209);
+            this.Btn_wave_w.TabIndex = 20;
+            this.Btn_wave_w.UseVisualStyleBackColor = true;
+            this.Btn_wave_w.Click += new System.EventHandler(this.Btn_wave_w_Click);
+            // 
+            // Btn_triangle
+            // 
+            this.Btn_triangle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_triangle.BackgroundImage")));
+            this.Btn_triangle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_triangle.Location = new System.Drawing.Point(379, 155);
+            this.Btn_triangle.Name = "Btn_triangle";
+            this.Btn_triangle.Size = new System.Drawing.Size(166, 209);
+            this.Btn_triangle.TabIndex = 19;
+            this.Btn_triangle.UseVisualStyleBackColor = true;
+            this.Btn_triangle.Click += new System.EventHandler(this.Btn_triangle_Click);
+            // 
+            // Btn_round
+            // 
+            this.Btn_round.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_round.BackgroundImage")));
+            this.Btn_round.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_round.Location = new System.Drawing.Point(185, 155);
+            this.Btn_round.Name = "Btn_round";
+            this.Btn_round.Size = new System.Drawing.Size(166, 209);
+            this.Btn_round.TabIndex = 18;
+            this.Btn_round.UseVisualStyleBackColor = true;
+            this.Btn_round.Click += new System.EventHandler(this.Btn_round_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.lbl_body);
+            this.groupBox3.Controls.Add(this.lbl_face);
+            this.groupBox3.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox3.Location = new System.Drawing.Point(833, 412);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(244, 112);
+            this.groupBox3.TabIndex = 17;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "현재 check 상태 ";
+            // 
+            // lbl_body
+            // 
+            this.lbl_body.AutoSize = true;
+            this.lbl_body.Location = new System.Drawing.Point(20, 67);
+            this.lbl_body.Name = "lbl_body";
+            this.lbl_body.Size = new System.Drawing.Size(67, 20);
+            this.lbl_body.TabIndex = 1;
+            this.lbl_body.Text = "몸 상태 :";
+            // 
+            // lbl_face
+            // 
+            this.lbl_face.AutoSize = true;
+            this.lbl_face.Location = new System.Drawing.Point(20, 36);
+            this.lbl_face.Name = "lbl_face";
+            this.lbl_face.Size = new System.Drawing.Size(82, 20);
+            this.lbl_face.TabIndex = 0;
+            this.lbl_face.Text = "얼굴 상태 :";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(28, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 117);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Red;
+            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_close.ForeColor = System.Drawing.Color.White;
+            this.btn_close.Location = new System.Drawing.Point(1090, 1);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(37, 38);
+            this.btn_close.TabIndex = 24;
+            this.btn_close.Text = "X";
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1128, 772);
+            this.Controls.Add(this.btn_close);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Btn_straight_w);
+            this.Controls.Add(this.Btn_natural_w);
+            this.Controls.Add(this.Btn_wave_w);
+            this.Controls.Add(this.Btn_triangle);
+            this.Controls.Add(this.Btn_round);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.Btn_square);
+            this.Controls.Add(this.Btn_oval);
             this.Controls.Add(this.closeBtn);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBoxbody_W);
-            this.Controls.Add(this.pictureBoxface_W);
             this.Controls.Add(this.btnOpen);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form4";
             this.Text = "코디프로그램";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxface_W)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbody_W)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -217,17 +229,18 @@
         #endregion
 
         private System.Windows.Forms.Button btnOpen;
-        private System.Windows.Forms.PictureBox pictureBoxface_W;
-        private System.Windows.Forms.PictureBox pictureBoxbody_W;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton triangleBtn_W;
-        private System.Windows.Forms.RadioButton squareBtn_W;
-        private System.Windows.Forms.RadioButton roundBtn_W;
-        private System.Windows.Forms.RadioButton ovalBtn_W;
-        private System.Windows.Forms.RadioButton naturalBtn_W;
-        private System.Windows.Forms.RadioButton waveBtn_W;
-        private System.Windows.Forms.RadioButton straightBtn_W;
         private System.Windows.Forms.Button closeBtn;
+        private System.Windows.Forms.Button Btn_oval;
+        private System.Windows.Forms.Button Btn_square;
+        private System.Windows.Forms.Button Btn_straight_w;
+        private System.Windows.Forms.Button Btn_natural_w;
+        private System.Windows.Forms.Button Btn_wave_w;
+        private System.Windows.Forms.Button Btn_triangle;
+        private System.Windows.Forms.Button Btn_round;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label lbl_body;
+        private System.Windows.Forms.Label lbl_face;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_close;
     }
 }

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Clothes" msprop:Generator_RowClassName="ClothesRow" msprop:Generator_RowEvHandlerName="ClothesRowChangeEventHandler" msprop:Generator_RowDeletedName="ClothesRowDeleted" msprop:Generator_RowDeletingName="ClothesRowDeleting" msprop:Generator_RowEvArgName="ClothesRowChangeEvent" msprop:Generator_TablePropName="Clothes" msprop:Generator_RowChangedName="ClothesRowChanged" msprop:Generator_UserTableName="Clothes" msprop:Generator_RowChangingName="ClothesRowChanging" msprop:Generator_TableClassName="ClothesDataTable" msprop:Generator_TableVarName="tableClothes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="number" msprop:Generator_ColumnPropNameInRow="number" msprop:Generator_ColumnPropNameInTable="numberColumn" msprop:Generator_ColumnVarNameInTable="columnnumber" msprop:Generator_UserColumnName="number" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Gender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnPropNameInTable="GenderColumn" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_UserColumnName="Gender" type="xs:string" minOccurs="0" />
+              <xs:element name="Body" msprop:Generator_ColumnPropNameInRow="Body" msprop:Generator_ColumnPropNameInTable="BodyColumn" msprop:Generator_ColumnVarNameInTable="columnBody" msprop:Generator_UserColumnName="Body" type="xs:string" minOccurs="0" />
+              <xs:element name="Face" msprop:Generator_ColumnPropNameInRow="Face" msprop:Generator_ColumnPropNameInTable="FaceColumn" msprop:Generator_ColumnVarNameInTable="columnFace" msprop:Generator_UserColumnName="Face" type="xs:string" minOccurs="0" />
+              <xs:element name="Url" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnPropNameInTable="UrlColumn" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_UserColumnName="Url" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -6,6 +6,10 @@ using System.Windows.Forms;
 
 namespace Team_Project
 {
+    public static class GlobalData
+    {
+        public static DataSet1 dataset = new DataSet1();
+    }
     internal static class Program
     {
         /// <summary>

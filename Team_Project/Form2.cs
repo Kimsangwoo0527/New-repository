@@ -140,13 +140,16 @@ namespace Team_Project
                 }
             }
         }
-<<<<<<< HEAD
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> ce2ea5bbf4292b2c09ba31ea5ccf380d8600ee40
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
