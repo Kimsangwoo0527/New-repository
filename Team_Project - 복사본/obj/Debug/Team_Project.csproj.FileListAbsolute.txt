@@ -1,0 +1,165 @@
+C:\Users\고재성\Desktop\Team_Project\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\Team_Project\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\Team_Project\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\Team_Project\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\New-repository\New-repository\Team_Project\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\New-repository - 복사본\New-repository\Team_Project\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\new\Team_Project\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\new\Team_Project\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\new\Team_Project\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\new\Team_Project\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\카피본\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\User\OneDrive\바탕 화면\카피본\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\고재성\Documents\카카오톡 받은 파일\Team_Project - 복사본\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\yecho\OneDrive\바탕 화면\일해라\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\고재성\Documents\카카오톡 받은 파일\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe.config
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\bin\Debug\Team_Project.pdb
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.AssemblyReference.cache
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.ResolveComReference.cache
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form1.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form2.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form3.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form4.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form5.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Form6.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.Properties.Resources.resources
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.GenerateResource.cache
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.csproj.CoreCompileInputs.cache
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.exe
+C:\Users\고재성\Desktop\은근찐 마무리\디자인끝!\일해라\Team_Project - 복사본\obj\Debug\Team_Project.pdb
